@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Uchen', serif;
+}
+
+body {
+    color: #fff;
+    background-image: url("../img/glasses.jpg");
+    background-position: center center;
+}
+
+/* Header  */
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left, black, transparent);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo > * {
+    padding: 7px;
+}
+
+.logo i {
+    font-size: 30px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 30px;
+}
+
+.navbar-items li {
+    padding: 7px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* If there isn't any books */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.btn-start {
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to right, black, transparent);
+    color: #fff;
+    margin-top: 10px;
+}
+
+.btn-start:hover {
+    cursor: pointer;
+}
+
+/* If there are books  */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.books-list {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, black, transparent);
+    border-spacing: 40px 0;
+}
+
+.books-list th {
+    padding: 5px 10px;
+}
+
+.btn-add {
+    padding: 10px ;
+    text-align: center;
+    width: 50px;
+    border: 1px solid black;
+    background: linear-gradient(to top, black, transparent);
+    border-radius: 10px;
+    color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.btn-add:hover {
+    cursor: pointer;
+}
+
+.alert {
+    width: 25%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, black, transparent);
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}

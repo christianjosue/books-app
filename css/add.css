@@ -1,0 +1,14 @@
+.rating {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rating > i {
+    margin-right: 5px;
+}
+
+.rating > i:hover {
+    cursor: pointer;
+}
